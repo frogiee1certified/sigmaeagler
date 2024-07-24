@@ -7,7 +7,7 @@ const path = require('path');
 const app = express();
 
 // Replace the URL and cookies with your actual values
-const targetURL = 'https://shuttle.lol/';
+const targetURL = 'wss://4673de56-f06b-40fb-8031-1ace2510e10b-00-5qfslowhfpit.janeway.replit.dev/';
 
 const cookies = [
   // ... (your cookie objects here)
