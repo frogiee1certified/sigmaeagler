@@ -26,64 +26,7 @@ app.get('/redirect10', (req, res) => {
   res.redirect(302, '/uv/education/hvtrs8%2F-nmw%2Cge%2Frlcy-ulcwbg%2F5054-nmw');
 });
 
-// Serve the index.html when explicitly requested
-// Serve the index.html when explicitly requested
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
-});
-// Serve the index.html when explicitly requested
-// Serve the index.html when explicitly requested
-app.get('/loading.mp4', (req, res) => {
-  res.sendFile(path.join(__dirname, '/loading.mp4'));
-});
 
-app.get('/checksum.txt', (req, res) => {
-  res.sendFile(path.join(__dirname, '/checksum.txt'));
-});
-
-app.get('/apps/kitika-games/7999/stumble-guys.html', (req, res) => {
-  res.sendFile(path.join(__dirname, '/apps/kitika-games/7999/stumble-guys.html'));
-});
-
-app.get('/apps/activision-publishing-inc/7935/call-of-duty.html', (req, res) => {
-  res.sendFile(path.join(__dirname, '/apps/activision-publishing-inc/7935/call-of-duty.html'));
-});
-
-app.get('/apps/playducky/7199/melon-sandbox.html', (req, res) => {
-  res.sendFile(path.join(__dirname, '/apps/playducky/7199/melon-sandbox.html'));
-});
-
-app.get('/apps/psyonix-studios/4656/rocket-league.html', (req, res) => {
-  res.sendFile(path.join(__dirname, '/apps/psyonix-studios/4656/rocket-league.html'));
-});
-
-app.get('/apps/electronic-arts/1353/ea-sports-fc-mobile-24-soccer.html', (req, res) => {
-  res.sendFile(path.join(__dirname, '/apps/electronic-arts/1353/ea-sports-fc-mobile-24-soccer.html'));
-});
-
-app.get('/apps/pixel-gun-3d/2652/pixel-gun.html', (req, res) => {
-  res.sendFile(path.join(__dirname, '/apps/pixel-gun-3d/2652/pixel-gun.html'));
-});
-
-app.get('/apps/robtop-games/1400/geometry-dash.html', (req, res) => {
-  res.sendFile(path.join(__dirname, '/apps/robtop-games/1400/geometry-dash.html'));
-});
-
-app.get('/apps/devsisters-corporation/3475/cookie-run.html', (req, res) => {
-  res.sendFile(path.join(__dirname, '/apps/devsisters-corporation/3475/cookie-run.html'));
-});
-
-app.get('/apps/uncube/7074/now.html', (req, res) => {
-  res.sendFile(path.join(__dirname, '/apps/uncube/7074/now.html'));
-});
-
-app.get('/apps/epic-games/7308/fortnite.html', (req, res) => {
-  res.sendFile(path.join(__dirname, '/apps/epic-games/7308/fortnite.html'));
-});
-
-app.get('/apps/frogiee1/69420/custom-thingy-loader.html', (req, res) => {
-  res.sendFile(path.join(__dirname, '/apps/frogiee1/69420/custom-thingy-loader.html'));
-});
 
 // Proxy middleware to add cookies to the request
 const proxyMiddleware = createProxyMiddleware({
